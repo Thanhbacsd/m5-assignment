@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href="./index.css">
+    <title>M5 assignment</title>
+</head>
+<body>
+    <h2>M5 assignment</h2>
+    <div class="container_1">
+        <div class="item_1">
+            <h3>1. Half of a number</h3>
+            <span>Please enter a number:</span>
+            <input id="h_number" type="number">
+            <button onclick="h_number()">Ok</button>
+            <span id="h_out">Result</span>
+        </div>
+        <br>
+        <div class="item_2">
+            <h3>2. Square the number</h3>
+            <span>Please enter a number:</span>
+            <input id="s_number" type="number">
+            <button onclick="s_number()">Ok</button>
+            <span id="s_out">Result</span>
+        </div>
+        <br>
+        <div class="item_3">
+            <h3>3. Pecent of a number</h3>
+            <span>Please enter the numbers:</span>
+            <input id="p_number1" type="number">
+            <span>% of</span>
+            <input id="p_number2" type="number">
+            <button onclick="p_number()">Ok</button>
+            <br>
+            <span id="p_out">Result</span>
+        </div>
+
+        <div class="item_4">
+            <h3>4. Modulus of the numbers</h3>
+            <span>Please enter the numbers (n1 > n2):</span>
+            <input id="m_number1" type="number">
+            <span><b>Modulus</b></span>
+            <input id="m_number2" type="number">
+            <button onclick="m_number()">Ok</button>
+            <br>
+            <span id="m_out">Result</span>
+        </div>
+    
+        <div class="item_5">
+            <h3>5. Rock, paper, scissors game</h3>
+            <span><b>Your choice:</b></span>
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+            <br>
+            <br>
+            <span><b>Computer chooses:</b></span>
+            <span id="machineout"></span>
+            <br>
+            <p id="result"></p>
+            <span id="mscore">Machine's score:__.</span>
+            <span id="yscore">__Your score:__.</span>
+            <button onclick="sreset()">Reset score</button>
+        </div>
+
+        <div class="item_6">
+            <h3>6. Basic calculator</h3>
+            <span>please enter the numbers:</span>
+            <input id="n1" type="number">
+            <span id="operator">????</span>
+            <input id="n2" type="number">
+            <span><b>=</b></span>
+            <span id="output">result</span>
+            <br>
+            <br>
+            <span>Please choose the operator:</span>
+            <br>
+            <button id="plus">+</button>
+            <button id="subtract">-</button>
+            <button id="multiply">*</button>
+            <button id="divide">:(/)</button>
+            <button id="percent">%</button>
+            <button id="square">x^2</button>
+        </div>
+</div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

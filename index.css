@@ -1,0 +1,102 @@
+
+body {
+    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+input  {
+    width: 50px;
+    font-size: 16px;
+}
+
+span {
+    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+button{
+         font-size: 14px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 16px; font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.container_1 {
+    display: grid;
+    grid-auto-columns: mimax(750px 750px);
+    grid-auto-rows: mimax(70px 40px); 
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    grid-template-areas: 
+        "a1 b1"
+        "a2 b2"
+        "a3 b3"
+       
+  }
+.item_1 {grid-area: a1; 
+    grid-column-start: 1; 
+    grid-column-end: 2;
+
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+}
+.item_2 {grid-area: b1; font-size: 16px;
+    grid-column-start: 2; 
+    grid-column-end: 3;
+
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+}
+.item_3 {grid-area: a2; 
+    grid-column-start: 1; 
+    grid-column-end: 2;
+
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+}
+.item_4 {grid-area: b2; font-size: 16px;
+    grid-column-start: 2; 
+    grid-column-end: 3;
+
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+}
+.item_5 {grid-area: a3; 
+    grid-column-start: 1; 
+    grid-column-end: 2;
+
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+}
+.item_6 {grid-area: b3; font-size: 16px;
+    grid-column-start: 2; 
+    grid-column-end: 3;
+
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+}
+ 
+.container_2 {
+    display: grid;
+    /* grid-template-columns: 600px 300px;  */
+    grid-auto-columns: 3fr, 1fr;
+    /*grid-template-columns: 1fr 1fr 1fr; /*colunes are equa */
+    /*grid-template-rows: 80px;*/
+    grid-auto-rows: mimax(60px);
+    grid-template-areas:  "a1 a2";   
+}
+.item_11 {grid-area: a1; border: 1px solid black; font-size: 16px;}
+.item_12 {grid-area: a2; border: 1px solid black; font-size: 16px;
+    margin-right: 10px;
+    text-align: right;
+}
+.left {margin-right: 10px;}
